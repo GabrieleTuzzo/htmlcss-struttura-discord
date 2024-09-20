@@ -11,11 +11,15 @@
     margin: 0 auto;
 }
 
-.wdth-50 {
+.row {
+    display: flex;
+}
+
+.col-50 {
     width: 50%;
 }
 
-.wdth-25 {
+.col-25 {
     width: 25%;
 }
 
@@ -25,7 +29,6 @@ header {
 }
 
 .header-main {
-    display: flex;
     justify-content: space-between;
 }
 
