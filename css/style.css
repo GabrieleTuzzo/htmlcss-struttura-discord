@@ -8,7 +8,7 @@
 /* LAYOUT */
 .container {
     width: 900px;
-    margin: 18px auto;
+    margin: 0px auto;
 }
 
 .row {
@@ -63,6 +63,21 @@
 
 .header-img {
     padding: 12px 0;
+}
+
+/* SECTION AND HEADER CONTAINER MARGIN */
+header .container, section .container {
+    margin: 18px auto;
+}
+
+/* FOOTER STYLE */
+footer .container {
+    margin-top: 18px;
+}
+
+footer .row {
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* DEBUG STYLE */
