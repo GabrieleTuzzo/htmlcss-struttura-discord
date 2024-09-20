@@ -15,6 +15,11 @@
     display: flex;
 }
 
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .col-75 {
     width: 75%;
 }
