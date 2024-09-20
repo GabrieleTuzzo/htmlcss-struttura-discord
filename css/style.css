@@ -1,0 +1,47 @@
+/* RESET STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.wdth-50 {
+    width: 50%;
+}
+
+.wdth-25 {
+    width: 25%;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main > * {
+    padding: 12px;
+}
+
+/* DEBUG STYLE */
+.debug {
+    border: 1px solid black;
+}
+
+.debug > * {
+    border: 2px solid blue;
+}
+
+.debug > * * {
+    border: 1px dashed red;
+}
