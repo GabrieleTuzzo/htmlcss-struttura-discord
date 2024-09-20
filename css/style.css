@@ -8,11 +8,15 @@
 /* LAYOUT */
 .container {
     width: 900px;
-    margin: 0 auto;
+    margin: 18px auto;
 }
 
 .row {
     display: flex;
+}
+
+.col-75 {
+    width: 75%;
 }
 
 .col-50 {
@@ -47,6 +51,7 @@
 /* DEBUG STYLE */
 .debug {
     border: 1px solid black;
+    background-color: aqua;
 }
 
 .debug > * {
