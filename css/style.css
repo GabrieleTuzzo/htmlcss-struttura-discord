@@ -20,6 +20,10 @@
     flex-direction: row-reverse;
 }
 
+.col-100 {
+    width: 100%;
+}
+
 .col-75 {
     width: 75%;
 }
