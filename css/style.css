@@ -53,14 +53,6 @@ li {
     width: calc((100% / 6) * 2);
 }
 
-.jc-center {
-    justify-content: center;
-}
-
-.ai-center {
-    align-items: center;
-}
-
 /* HEADER STYLE */
 header .container {
     padding: 12px 0;
@@ -75,6 +67,7 @@ header .container {
 }
 
 .header-img {
+    justify-content: center;
     padding: 15px 0;
 }
 
