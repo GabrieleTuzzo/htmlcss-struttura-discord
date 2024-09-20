@@ -36,6 +36,14 @@
     width: 25%;
 }
 
+.col-1-6{
+    width: calc(100% / 6);
+}
+
+.col-2-6{
+    width: calc((100% / 6) * 2);
+}
+
 .jc-center {
     justify-content: center;
 }
