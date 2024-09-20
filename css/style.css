@@ -23,17 +23,25 @@
     width: 25%;
 }
 
-/* HEADER */
-header {
-    padding: 20px;
+.jc-center {
+    justify-content: center;
 }
 
+.ai-center {
+    align-items: center;
+}
+
+/* HEADER */
 .header-main {
     justify-content: space-between;
 }
 
 .header-main > * {
     padding: 12px;
+}
+
+.header-img {
+    padding: 12px 0;
 }
 
 /* DEBUG STYLE */
@@ -47,4 +55,12 @@ header {
 
 .debug > * * {
     border: 1px dashed red;
+}
+
+.debug-height {
+    height: 300px;
+}
+
+.debug-width {
+    width: 600px
 }
